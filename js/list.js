@@ -1,3 +1,6 @@
+var MAX_COLUMNS_PER_ROW = 6; 
+
+
 var list = [
     1,
     2,
