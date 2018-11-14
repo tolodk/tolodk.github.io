@@ -9,7 +9,7 @@ window.addEventListener("load", function(){
         
         html += '<div id="'+ i +'" class="col">' + i + '</div>';
 
-        if(counter === 5){
+        if(counter === MAX_COLUMNS_PER_ROW-1){
             html += '</div>';
             counter = 0;
         }else{
