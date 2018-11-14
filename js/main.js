@@ -7,7 +7,7 @@ window.addEventListener("load", function(){
             html += '<div class="row">';
         }
         
-        html += '<div id="'+ i +'" class="col">' + i + '</div>';
+        html += '<div id="'+ list[i] +'" class="col">' + list[i] + '</div>';
 
         if(counter === MAX_COLUMNS_PER_ROW-1){
             html += '</div>';
