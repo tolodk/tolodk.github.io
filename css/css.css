@@ -1,0 +1,32 @@
+div.success{
+    background-color: limegreen;
+}
+
+.container {
+    padding-top:70px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.col {
+    outline: 2px solid black;
+    background-color: salmon;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#list{
+    margin-top: 20px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#txtNumber {
+    width: 70%;
+    margin-right:20px;
+}
